@@ -23,8 +23,8 @@ for arg in ARGV
         sum +=  timeDiff arg                
 end
 
-elapset_time = (sum-now).floor
+elapsed_time = (sum-now).floor
 
-elapsed_hours = (elapset_time/3600).floor
-elapsed_minutes = (elapset_time%3600).floor
+elapsed_hours = (elapsed_time/3600).floor
+elapsed_minutes = (elapsed_time%3600).floor
 puts "total hours: "+elapsed_hours.to_s+":%02d"%[elapsed_minutes.to_s]+" hours"
