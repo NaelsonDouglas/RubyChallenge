@@ -1,0 +1,5 @@
+REPORT
+input/f1.txt: 11:40 hours
+input/f2.txt: 12:54 hours
+input/f3.txt: 13:26 hours
+total hours: 38:00 hours
